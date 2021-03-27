@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-family: "Noto Sans", sans-serif;
+}
+
+body {
+    background-image: url("image/bg.jpeg");
+    background-size: cover;
+}
+
+header {
+    background-image: url("image/circlesheader.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    border-bottom: 3px solid black;
+}
+
+:root {
+    --hottext: rgb(44, 205, 35);
+
+}
+
+h1 {
+    font-family: "Notable", sans-serif;
+    text-align: center;
+    color: var(--hottext);
+    font-size: 7vw;
+}
+
+/* h2 {
+    font-family: "Notable", sans-serif;
+    text-align: center;
+    color: var(--hottext);
+} */
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid black;
+}
+
+a { 
+    font-family: "Notable", sans-serif;
+    margin: 0px 40px 5px 40px;
+    text-decoration: none;
+    font-size: 2vw;
+    color: var(--hottext);   
+}
+
+footer {
+    border-top: 3px solid black;
+    width: 100%;
+    height: 125px;
+    background-image: url("image/circlesfooter.png");
+    background-size: cover;
+}
+
+#contactlinks {
+    border-top: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
